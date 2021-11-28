@@ -1,0 +1,45 @@
+.body{
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  }
+
+.one,
+.two,
+.three{
+  
+   margin:30px 0;
+  }
+.one .button-class,
+.two .button-class,
+.three .button-class{
+  width: 350px;
+  }
+.css-16m3jxf-MuiTypography-root,
+.css-9eg9l8-MuiTypography-root{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.one,
+.two,
+.three{
+  position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  } 
+  .one:hover,
+  .two:hover,
+  .three:hover {
+    top: -10px;
+  }
+  .second-typography{
+    opacity: 0.5;
+  }
+.Fourth-typography{
+  opacity: 0.6;
+}
+.dollar{
+  text-align: center;
+}
